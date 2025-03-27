@@ -1,0 +1,40 @@
+{
+    "timestamp": "2025-03-27T15:36:26.356915",
+    "formats": {
+        "csv": {
+            "read_time_seconds": 2.6959097385406494,
+            "row_count": 1500007,
+            "file_size_mb": 0.0,
+            "data_size_per_second_mb": 0.0,
+            "query_plan_length": 1072
+        },
+        "orc": {
+            "read_time_seconds": 0.06837153434753418,
+            "row_count": 1499999,
+            "file_size_mb": 0.0,
+            "data_size_per_second_mb": 0.06,
+            "query_plan_length": 1125
+        },
+        "parquet": {
+            "read_time_seconds": 0.06888437271118164,
+            "row_count": 1499999,
+            "file_size_mb": 0.0,
+            "data_size_per_second_mb": 0.06,
+            "query_plan_length": 1145
+        }
+    },
+    "system_metrics": {
+        "cpu_usage_percent": 16.7,
+        "memory_total_gb": 15.41,
+        "memory_used_gb": 9.03,
+        "memory_used_percent": 68.6,
+        "available_memory_gb": 4.83
+    },
+    "spark_metrics": {
+        "active_executors": "N/A",
+        "default_parallelism": 8,
+        "total_cores": 8,
+        "spark_version": "3.5.5",
+        "storage_memory_used_mb": "N/A"
+    }
+}
